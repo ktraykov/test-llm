@@ -47,7 +47,7 @@ from simplechat import handle_message
 #gemma-7b-it
 
 #set API key
-GROQ_KEY = "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"
+GROQ_KEY = "gsk_YOUR_OWN_API_KEY"
 
 memory = ConversationBufferWindowMemory(memory_key="chat_history",
                                         input_key='input', 
